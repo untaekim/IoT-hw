@@ -59,3 +59,7 @@
 - 반환 값이 없으면 undefined를 반환한 것으로 간주합니다.
 #### 1-20
 - 08번 라인처럼 사용하지 않습니다.
+#### 1-21
+- undefined는 없는것이 아닌 주소로 인식합니다.
+- arr1.map은 새로운 array를 만듭니다.
+- forEach, map, filter, reduce는 속에 들어있는 function을 적용하는 것 입니다.
