@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch - Chapter 3\\3-12\\index.html",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/Chapter 3/3-12/index.html",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Launch - Chapter 3\\3-18\\index.html",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/Chapter 3/3-18/index.html",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
