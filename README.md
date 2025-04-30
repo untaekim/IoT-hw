@@ -54,3 +54,6 @@
 #### 1-18
 - __proto__나 getter/srtter들은 copy가 불가능 합니다.
 - object target이 string으로 바뀝니다.
+#### 1-19
+- undefined는 값을 대입하지 않는 변수에 접근합니다.
+- 반환 값이 없으면 undefined를 반환한 것으로 간주합니다.
