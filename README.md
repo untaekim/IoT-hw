@@ -51,3 +51,6 @@
 #### 1-17
 - obj2.b.c 변경 하여도 obj에는 영향이 없습니다.
 - obj.b.d[1] = 3 변경시에는 obj2의 d는 원본 배열이므로 영향을 받습니다.
+#### 1-18
+- __proto__나 getter/srtter들은 copy가 불가능 합니다.
+- object target이 string으로 바뀝니다.
