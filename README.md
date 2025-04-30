@@ -63,3 +63,5 @@
 - undefined는 없는것이 아닌 주소로 인식합니다.
 - arr1.map은 새로운 array를 만듭니다.
 - forEach, map, filter, reduce는 속에 들어있는 function을 적용하는 것 입니다.
+#### 1-22
+- typeof는 null이거나 object이며 이는 자바스크립트 자체 버그입니다.
