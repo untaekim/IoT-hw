@@ -141,3 +141,5 @@
 #### 3-9
 - function도 각자의 this를 가지고 있습니다.
 - 일반 호출이라면 this는 전역 객체입니다.
+#### 3-10
+- 05번 라인에 this가 that이라고 한다면 inner func에서도 outer func로 대신 가능합니다.
