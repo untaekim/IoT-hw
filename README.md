@@ -143,3 +143,6 @@
 - 일반 호출이라면 this는 전역 객체입니다.
 #### 3-10
 - 05번 라인에 this가 that이라고 한다면 inner func에서도 outer func로 대신 가능합니다.
+#### 3-11
+- 화살표 함수는 arrow function이라고 하며 this를 자신이 선언된 시점의 상위 스코프에서 고정합니다.
+- innerFunc의 this는 window가 됩니다.
