@@ -65,3 +65,10 @@
 - forEach, map, filter, reduce는 속에 들어있는 function을 적용하는 것 입니다.
 #### 1-22
 - typeof는 null이거나 object이며 이는 자바스크립트 자체 버그입니다.
+
+
+## Chapter 2
+#### 2-1
+- inner 수행 끝나면 없어지며 그 이후 outer도 끝나며 이것 또한 제거 됩니다.
+- inner() 함수 내부에서는 지역 변수 a가 호이스팅되어 undefined가 출력됩니다.
+- console.log(a) 위치 이전에 var a가 선언되었기 때문에 outer() 바깥의 a는 global이며 outer() 내부에서는 a를 수정하지 않으므로 여전히 1입니다.
