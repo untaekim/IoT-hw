@@ -149,3 +149,6 @@
 #### 3-12
 - 콜백 함수에서 사용하는 function에 의해 this가 결정됩니다.
 - setTimeout, forEach, .addEventListener 들의 this를 결정한다.
+#### 3-13
+- new로 호출 시 내부의 this는 새로 생성된 객체를 가리킵니다.
+- return 없이 객체가 반환합니다.
