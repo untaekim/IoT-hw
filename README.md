@@ -146,3 +146,6 @@
 #### 3-11
 - 화살표 함수는 arrow function이라고 하며 this를 자신이 선언된 시점의 상위 스코프에서 고정합니다.
 - innerFunc의 this는 window가 됩니다.
+#### 3-12
+- 콜백 함수에서 사용하는 function에 의해 this가 결정됩니다.
+- setTimeout, forEach, .addEventListener 들의 this를 결정한다.
