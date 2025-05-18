@@ -193,3 +193,9 @@
 - forEach, map은 콜백의 this를 제어할 수 있게 thisArg를 지원합니다.
 #### 3-31
 - 명시적 바인딩 없이 콜백의 this를 함수 밖의 객체로 유지합니다.
+
+
+## Chapter 4
+#### 4-1
+- setInterval은 일정 시간 간격으로 함수를 반복 실행합니다.
+- call back function은 function정의 후 setInterval에 function을 넘겨줍니다.
