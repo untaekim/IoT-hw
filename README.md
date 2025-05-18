@@ -200,4 +200,4 @@
 - setInterval은 일정 시간 간격으로 함수를 반복 실행합니다.
 - call back function은 function정의 후 setInterval에 function을 넘겨줍니다.
 #### 4-2
-- 
+- 콜백 함수를 외부에 cbFunc로 정의해 재사용 구조로 변경합니다.
