@@ -220,3 +220,5 @@
 #### 4-8
 - setTimeout(callback)에서도 obj1.name이 정확히 출력됩니다.
 - self는 obj1이고 func: 이후 한 묶음이 obj1의 this입니다.
+#### 4-9
+- this를 사용하지 않고 obj1.name 직접 참조하며 obj1.func가 사라지면 참조가 깨지는 현상이 나타납니다.
