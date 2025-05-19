@@ -225,3 +225,5 @@
 #### 4-10
 - obj1.func.call(obj3)은 obj1의 func안에 this를 가져오며 obj1.name 출력 후, 반환값이 없으니 callback3도 undefined합니다.
 - obj2.func()는 즉시 실행이라 obj1.name 로그 후, callback2는 undefined 합니다.
+#### 4-11
+- bind는 this를 원하는 객체에 고정시키고 각각 obj1, obj2의 name 출력합니다.
