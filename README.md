@@ -205,3 +205,6 @@
 - map이라는 function이며 자기만의 this를 가집니다.
 - 10을 cureent value에 넣고 index=0입니다.
 - 매 요소마다 currentValue, index를 출력합니다.
+#### 4-4
+- value자리에 index index자리에 currentvalue가 있습니다. 또한 바꿔서 사용하여도 index자리에 10 currentvalue에는 1입니다.
+- map의 콜백은 (currentValue, index, array)가 맞습니다.
