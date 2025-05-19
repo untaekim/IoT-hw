@@ -211,3 +211,6 @@
 #### 4-5
 - thisArg를 작성해주면 callback function의 this는 thisArg로 수행하라는것을 나타냅니다.
 -  A || B 의 의미는 A가 없으면 B를 수행, A가 있으면 A를 수행한다는 의미를 가집니다.
+#### 4-6
+- setTimeout은 300ms이후에 console.log(this)를 수행하는 의미를 가집니다.
+-.addEventListener은 click이 들어오면 function을 수행합니다.
