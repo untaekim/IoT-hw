@@ -227,3 +227,6 @@
 - obj2.func()는 즉시 실행이라 obj1.name 로그 후, callback2는 undefined 합니다.
 #### 4-11
 - bind는 this를 원하는 객체에 고정시키고 각각 obj1, obj2의 name 출력합니다.
+#### 4-12
+- setTimeout은 타이머 설정이외에 하는게 없습니다.
+- setTimeout(amycallback,1000)일때 webAPI에다가 callback을 넘겨주고 1000ms합니다.
