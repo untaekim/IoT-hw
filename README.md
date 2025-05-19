@@ -201,3 +201,7 @@
 - call back function은 function정의 후 setInterval에 function을 넘겨줍니다.
 #### 4-2
 - 콜백 함수를 외부에 cbFunc로 정의해 재사용 구조로 변경합니다.
+#### 4-3
+- map이라는 function이며 자기만의 this를 가집니다.
+- 10을 cureent value에 넣고 index=0입니다.
+- 매 요소마다 currentValue, index를 출력합니다.
