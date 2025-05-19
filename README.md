@@ -267,3 +267,6 @@
 - alertFruit는 외부에서 정의된 단일 함수이니 매개변수 fruit을 필요로 합니다.
 - addEventListener('click', alertFruit)는 클릭 이벤트에서 fruit 인자를 넘기지 않으며 undefined 출력합니다.
 - 이 예제는 함수를 참조만 하고 인자를 넘기지 않으면 클로저를 통해도 값이 유지되지 않습니다.
+#### 5-8
+- bind(null, fruit)은 새로운 함수를 만들어 fruit 값을 첫 번째 인자로 고정됩니다.
+- 장점은 fruit값이 바뀌지 않으며 bind()는 this와 무관하므로 null합니다. 즉 바인딩된 함수는 클로저처럼 외부 값을 고정해서 사용합니다.
