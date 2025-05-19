@@ -217,3 +217,6 @@
 #### 4-7
 - obj.logValues(1, 2)에서는 this는 obj이며 obj의 method로 사용됩니다.
 - forEach(obj.logValues)는 그냥 함수로 전달하며 this는 window입니다.
+#### 4-8
+- setTimeout(callback)에서도 obj1.name이 정확히 출력됩니다.
+- self는 obj1이고 func: 이후 한 묶음이 obj1의 this입니다.
