@@ -208,3 +208,6 @@
 #### 4-4
 - value자리에 index index자리에 currentvalue가 있습니다. 또한 바꿔서 사용하여도 index자리에 10 currentvalue에는 1입니다.
 - map의 콜백은 (currentValue, index, array)가 맞습니다.
+#### 4-5
+- thisArg를 작성해주면 callback function의 this는 thisArg로 수행하라는것을 나타냅니다.
+-  A || B 의 의미는 A가 없으면 B를 수행, A가 있으면 A를 수행한다는 의미를 가집니다.
