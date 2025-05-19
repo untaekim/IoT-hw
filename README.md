@@ -233,3 +233,8 @@
 #### 4-13
 - 콜백 함수를 분리해서 중첩 감소
 - 여전히 타이밍 제어를 외부에서 하므로 흐름 제어가 명확하지 않습니다.
+#### 4-14
+- resolve안에 status가 pending이면 fulfilled로 바뀝니다.
+- reject안에 status가 pending이면 rejected로 바뀝니다.
+- 이것등을 resolve를 한번 수행하면 reject는 수행하지 않습니다.
+- 각 단계에서 resolve를 통해 다음 단계로 데이터 전달합니다.
