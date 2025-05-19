@@ -214,3 +214,6 @@
 #### 4-6
 - setTimeout은 300ms이후에 console.log(this)를 수행하는 의미를 가집니다.
 -.addEventListener은 click이 들어오면 function을 수행합니다.
+#### 4-7
+- obj.logValues(1, 2)에서는 this는 obj이며 obj의 method로 사용됩니다.
+- forEach(obj.logValues)는 그냥 함수로 전달하며 this는 window입니다.
