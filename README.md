@@ -319,3 +319,5 @@
 #### 6-7
 - hasOwnProperty()을 수행하면 Object.prototype에 있는 것을 수행합니다.
 - Array.prototype object의 instance는 __proto_입니다.
+#### 6-8
+- [1,2].tostring()은 object.prototype.tostring을 사용할 수 없습니다. 또한 내부 [[Class]]값을 변환하여 정확한 타입 식별로 사용합니다. 추가적으로 join(',')으로 반환하기도 합니다.
