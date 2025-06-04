@@ -325,3 +325,8 @@
 - Object.prototype.getEntries는 객체의 고유(key-value) 프로퍼티를 배열로 반환하는 함수입니다.
 - data 배열에 다양한 타입을 넣고 .getEntries() 호출합니다. 결과적으로 객체, 배열, 문자열만 키-값을 반환하고, 나머지 타입은 빈 배열 []을 의미합니다.
 - Object.prototype 확장은 모든 객체에 영향을 주는것을 주의해야합니다.
+#### 6-10
+- args는 argument를 array형태로 만들어서 저장합니다.
+- Grade의 instance g가 배열 instance가 사용할 수 있는 function을 사용하게 하려면 Grade.prototype=[]을 Array.instance를 만들거나 Grade 자체를 Array로부터 확장하는 ES6 class 사용하는 방법이 있을거 같으며 후자 부분이 직관적으로는 좋은 코드입니다.
+- Array.prototype.slice.call(arguments)로 진짜 배열로 변환합니다.
+- Grade는 일반 객체 이지만 배열처럼 동작합니다. 그 이유는 this[0],this[1]과 length를 가지고 있기 때문입니다.
