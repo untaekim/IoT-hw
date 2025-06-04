@@ -306,3 +306,6 @@
 #### 6-2
 - 함수도 객체이므로 프로퍼티를 가질 수 있으며 prototype은 생성자 함수의 속성을 뜻하고 인스턴스가 상속받는 공간이라고 합니다.
 - Constructor.prototype.method1과 property1은 인스턴스가 직접 갖는 게 아니라 prototype 체인을 접근합니다.
+#### 6-3 
+- 배열 인스턴스는 constructor 프로퍼티를 통해 자신의 생성자 함수 Array를 참조한다고 생각합니다.
+- arr.constructor(3, 4) 과 Array(3. 4)는 동일합니다.
