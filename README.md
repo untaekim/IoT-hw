@@ -316,3 +316,6 @@
 - 다섯 객체 모두 Person을 통해 만들어진 동일한 구조입니다.
 #### 6-6
 - iu.getName()은 '바로 지금'이라는 의미를 가지며, 인스턴스 메서드를 우선 참조합니다.
+#### 6-7
+- hasOwnProperty()을 수행하면 Object.prototype에 있는 것을 수행합니다.
+- Array.prototype object의 instance는 __proto_입니다.
