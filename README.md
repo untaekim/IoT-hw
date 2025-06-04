@@ -309,3 +309,8 @@
 #### 6-3 
 - 배열 인스턴스는 constructor 프로퍼티를 통해 자신의 생성자 함수 Array를 참조한다고 생각합니다.
 - arr.constructor(3, 4) 과 Array(3. 4)는 동일합니다.
+#### 6-5
+- Array prototype에 constructor이 존재하기 떄문에 Array를 가르키고 있다 즉 덮어쓸 수 있습니다.
+- instanceof 연산자는 실제 prototype 기준으로 동작합니다.
+- P1Proto는 person의 prototype의 object를 가르킵니다.
+- 다섯 객체 모두 Person을 통해 만들어진 동일한 구조입니다.
