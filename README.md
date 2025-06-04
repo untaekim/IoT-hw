@@ -314,3 +314,5 @@
 - instanceof 연산자는 실제 prototype 기준으로 동작합니다.
 - P1Proto는 person의 prototype의 object를 가르킵니다.
 - 다섯 객체 모두 Person을 통해 만들어진 동일한 구조입니다.
+#### 6-6
+- iu.getName()은 '바로 지금'이라는 의미를 가지며, 인스턴스 메서드를 우선 참조합니다.
