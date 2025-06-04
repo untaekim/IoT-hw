@@ -321,3 +321,7 @@
 - Array.prototype object의 instance는 __proto_입니다.
 #### 6-8
 - [1,2].tostring()은 object.prototype.tostring을 사용할 수 없습니다. 또한 내부 [[Class]]값을 변환하여 정확한 타입 식별로 사용합니다. 추가적으로 join(',')으로 반환하기도 합니다.
+#### 6-9
+- Object.prototype.getEntries는 객체의 고유(key-value) 프로퍼티를 배열로 반환하는 함수입니다.
+- data 배열에 다양한 타입을 넣고 .getEntries() 호출합니다. 결과적으로 객체, 배열, 문자열만 키-값을 반환하고, 나머지 타입은 빈 배열 []을 의미합니다.
+- Object.prototype 확장은 모든 객체에 영향을 주는것을 주의해야합니다.
