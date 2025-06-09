@@ -372,3 +372,6 @@
 #### 7-12
 - Bridge라는 빈 함수를 통해 prototype 체인만을 가져오며 인스턴스를 만들지 않고 수동으로 constructor 복원합니다.
 - Object.create()는 새 객체를 만들면서 Prototype만 SuperClass의 prototype에 연결합니다.
+#### 7-13
+- Object.create(SuperClass.prototype)는 Square.prototype는 proto.Rectangle.prototype를 가르킵니다.
+- subMethods사용하면서 전달된것만 Square.prototype에 추가합니다. 또한 Object.freeze()는 Square.prototype을 변경 못 하도록 보호하며 확장을 방지 합니다.
