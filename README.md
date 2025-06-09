@@ -340,3 +340,6 @@
 #### 7-2
 - Grade.prototype은 배열로 설정하지만 생성자 함수 내부는 일반 객체로 초기화합니다.
 - g는 Grade의 인스턴스입니다.
+#### 7-3
+- Grade.prototype = []가 만들어 짐에 의해 Array와 Array.prototype이 만들어 집니다.
+- g.push(90)는 length가 존재하여 정상 동작을 합니다. 하지만 g.push(70)는 length가 없으므로 length=1로 간주합니다. 즉 length 삭제시 undefined는 0에서1로 가준됩니다.
