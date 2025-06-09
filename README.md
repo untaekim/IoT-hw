@@ -375,3 +375,8 @@
 #### 7-13
 - Object.create(SuperClass.prototype)는 Square.prototype는 proto.Rectangle.prototype를 가르킵니다.
 - subMethods사용하면서 전달된것만 Square.prototype에 추가합니다. 또한 Object.freeze()는 Square.prototype을 변경 못 하도록 보호하며 확장을 방지 합니다.
+#### 7-14
+-  super function의 this는 self이고 self는 super을 불러준 function이며 self는 square의 instance에 해당하는 closer 변수입니다.
+- propName 과 self를 클로저변수로 return되는 함수에 넣어줍니다.
+- super("getArea")()를 실행한다면 Rectangle.prototype.getArea.call(this)과 같습니다.
+- 따라서 prop이 함수가 아니면 prop은 return하며 함수이면 prop(arguments)를 수행시킵니다.
