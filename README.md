@@ -384,3 +384,6 @@
 - this.name을 인스턴스는 각각 ES5('es5'), ES6('es6')에 저장됩니다.
 - 정적 메서드 내부에서 this는 클래스 자체를 가리키며,
 ES5나 ES6 클래스 객체에는 name 프로퍼티가 없기 때문에 this.name 는 undefined을 가르키며 undefined staticMethod을 출력합니다.
+#### 7-16
+- class Rectangle {}처럼 직접 이름을 붙이는 대신해서 익명 클래스를 변수에 대입한 방식으로 Rectangle은 결국 constructor, getArea 메서드를 갖는 객체를 나타냅니다.
+- extends는 Square는 Rectangle의 하위 클래스이며 super()는 Rectangle의 constructor(width, height)를 호출합니다.
