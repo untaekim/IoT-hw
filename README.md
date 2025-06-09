@@ -343,3 +343,6 @@
 #### 7-3
 - Grade.prototype = []가 만들어 짐에 의해 Array와 Array.prototype이 만들어 집니다.
 - g.push(90)는 length가 존재하여 정상 동작을 합니다. 하지만 g.push(70)는 length가 없으므로 length=1로 간주합니다. 즉 length 삭제시 undefined는 0에서1로 가준됩니다.
+#### 7-4
+- g.push(90)는 g.length = 2에서2번 인덱스에 삽입하며, g.push(70)는 배열 prototype 길이 따라 length = 4 는 4번 인덱스부터 들어갑니다.
+- g는 프로토타입 배열의 특성을 따라 push로도 작동합니다.
