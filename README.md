@@ -380,3 +380,7 @@
 - propName 과 self를 클로저변수로 return되는 함수에 넣어줍니다.
 - super("getArea")()를 실행한다면 Rectangle.prototype.getArea.call(this)과 같습니다.
 - 따라서 prop이 함수가 아니면 prop은 return하며 함수이면 prop(arguments)를 수행시킵니다.
+#### 7-15
+- this.name을 인스턴스는 각각 ES5('es5'), ES6('es6')에 저장됩니다.
+- 정적 메서드 내부에서 this는 클래스 자체를 가리키며,
+ES5나 ES6 클래스 객체에는 name 프로퍼티가 없기 때문에 this.name 는 undefined을 가르키며 undefined staticMethod을 출력합니다.
