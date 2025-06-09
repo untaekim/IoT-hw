@@ -349,3 +349,5 @@
 #### 7-5
 - Rectangle 인스턴스 구조 (rect)이며 rect.getArea() 호출 시 Rectangle.prototype.getArea에서 찾아 3*4=12 입니다.
 - Square 인스턴스 구조 (sq)이고 getArea()는 Square.prototype.getArea에 있으며 5*5=25 입니다.
+#### 7-6
+- Rectangle과 구조는 비슷하지만 코드 중복되어 있습니다.
