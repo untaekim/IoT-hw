@@ -369,3 +369,6 @@
 #### 7-11
 - Square.prototype.constructor가 Square이며  constructor가 가르킵니다. 또한 Square.prototype.constructor가 Square을 보도록 하여 인스턴스에서 .constructor를 호출하면 자신을 정확히 참조합니다.
 - 핵심은 constructor 복원하면서 생성자 인식 정확성이 높아 졌습니다.
+#### 7-12
+- Bridge라는 빈 함수를 통해 prototype 체인만을 가져오며 인스턴스를 만들지 않고 수동으로 constructor 복원합니다.
+- Object.create()는 새 객체를 만들면서 Prototype만 SuperClass의 prototype에 연결합니다.
