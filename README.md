@@ -366,3 +366,6 @@
 #### 7-10
 -  proto가 Rectangle.prototype 가르키며 Rectangle의 메서드 getArea()도 프로토타입 체인 상에서 연결됩니다.
 - sq.getArea()가 sq.proto.getArea()를 가르키고 이것이 Rectangle.prototype.getArea()를 가르킵니다.
+#### 7-11
+- Square.prototype.constructor가 Square이며  constructor가 가르킵니다. 또한 Square.prototype.constructor가 Square을 보도록 하여 인스턴스에서 .constructor를 호출하면 자신을 정확히 참조합니다.
+- 핵심은 constructor 복원하면서 생성자 인식 정확성이 높아 졌습니다.
