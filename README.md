@@ -337,3 +337,6 @@
 - new Rectangle(3, 4) 수행하면 01-04라인이 수행하며 width는 3 height는 4가 들어갑니다.
 - this 안에 width와height가 들어가 있으며 이것을 rect1d에 넣어준다 즉 rect1도 this를 가르키고 있습니다.
 - Rectangle.isRectangle(rect1)는 수행을 시킬수 있으며 rect1.isRectangle(rect1)는 rectangle.prorotype에 없기 때문에 오류가 납니다.
+#### 7-2
+- Grade.prototype은 배열로 설정하지만 생성자 함수 내부는 일반 객체로 초기화합니다.
+- g는 Grade의 인스턴스입니다.
