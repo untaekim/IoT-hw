@@ -351,3 +351,7 @@
 - Square 인스턴스 구조 (sq)이고 getArea()는 Square.prototype.getArea에 있으며 5*5=25 입니다.
 #### 7-6
 - Rectangle과 구조는 비슷하지만 코드 중복되어 있습니다.
+#### 7-7
+- Rectangle.call(this, width, width)는 Rectangle 생성자 내부 코드를 Square의 this에 적용하며 또한 this는 sq를 가리키고 sq = { width: 5, height: 5 } 가 됩니다.
+- Square.prototype이 Rectangle 인스턴스이며 new Rectangle()로 가면서 width: 3, height: 4가 들어가 있는 proto입니다.
+- 문제점으로는 constructor 깨지며 메모리가 비효율적입니다.
