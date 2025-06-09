@@ -330,3 +330,10 @@
 - Grade의 instance g가 배열 instance가 사용할 수 있는 function을 사용하게 하려면 Grade.prototype=[]을 Array.instance를 만들거나 Grade 자체를 Array로부터 확장하는 ES6 class 사용하는 방법이 있을거 같으며 후자 부분이 직관적으로는 좋은 코드입니다.
 - Array.prototype.slice.call(arguments)로 진짜 배열로 변환합니다.
 - Grade는 일반 객체 이지만 배열처럼 동작합니다. 그 이유는 this[0],this[1]과 length를 가지고 있기 때문입니다.
+
+
+## Chapter 7
+#### 7-1
+- new Rectangle(3, 4) 수행하면 01-04라인이 수행하며 width는 3 height는 4가 들어갑니다.
+- this 안에 width와height가 들어가 있으며 이것을 rect1d에 넣어준다 즉 rect1도 this를 가르키고 있습니다.
+- Rectangle.isRectangle(rect1)는 수행을 시킬수 있으며 rect1.isRectangle(rect1)는 rectangle.prorotype에 없기 때문에 오류가 납니다.
