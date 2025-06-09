@@ -355,3 +355,7 @@
 - Rectangle.call(this, width, width)는 Rectangle 생성자 내부 코드를 Square의 this에 적용하며 또한 this는 sq를 가리키고 sq = { width: 5, height: 5 } 가 됩니다.
 - Square.prototype이 Rectangle 인스턴스이며 new Rectangle()로 가면서 width: 3, height: 4가 들어가 있는 proto입니다.
 - 문제점으로는 constructor 깨지며 메모리가 비효율적입니다.
+#### 7-8
+- SubClass.prototype는 new SuperClass()로 연결됩니다.하지만 SubClass.prototype 자체는 SuperClass 인스턴스입니다.
+- Object.freeze(SubClass.prototype)을 사용해
+하위 prototype이 변경되지 않도록 보호를 합니다.
