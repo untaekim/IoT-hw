@@ -363,3 +363,6 @@
 - SuperClass의 prototype을 Bridge의 prototype으로 설정하며 추가적으로 new Bridge() 결과가 SubClass.prototype이 됩니다.
 - sq = new Square(5)는  Rectangle.call(this, width, width) 실행되며 this = sq 는 { width: 5, height: 5 }나타납니다.
 - new SuperClass()를 쓰지 않음으로 instance값이 섞이지 않습니다.
+#### 7-10
+-  proto가 Rectangle.prototype 가르키며 Rectangle의 메서드 getArea()도 프로토타입 체인 상에서 연결됩니다.
+- sq.getArea()가 sq.proto.getArea()를 가르키고 이것이 Rectangle.prototype.getArea()를 가르킵니다.
