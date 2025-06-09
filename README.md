@@ -359,3 +359,7 @@
 - SubClass.prototype는 new SuperClass()로 연결됩니다.하지만 SubClass.prototype 자체는 SuperClass 인스턴스입니다.
 - Object.freeze(SubClass.prototype)을 사용해
 하위 prototype이 변경되지 않도록 보호를 합니다.
+#### 7-9
+- SuperClass의 prototype을 Bridge의 prototype으로 설정하며 추가적으로 new Bridge() 결과가 SubClass.prototype이 됩니다.
+- sq = new Square(5)는  Rectangle.call(this, width, width) 실행되며 this = sq 는 { width: 5, height: 5 }나타납니다.
+- new SuperClass()를 쓰지 않음으로 instance값이 섞이지 않습니다.
