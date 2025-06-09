@@ -346,3 +346,6 @@
 #### 7-4
 - g.push(90)는 g.length = 2에서2번 인덱스에 삽입하며, g.push(70)는 배열 prototype 길이 따라 length = 4 는 4번 인덱스부터 들어갑니다.
 - g는 프로토타입 배열의 특성을 따라 push로도 작동합니다.
+#### 7-5
+- Rectangle 인스턴스 구조 (rect)이며 rect.getArea() 호출 시 Rectangle.prototype.getArea에서 찾아 3*4=12 입니다.
+- Square 인스턴스 구조 (sq)이고 getArea()는 Square.prototype.getArea에 있으며 5*5=25 입니다.
